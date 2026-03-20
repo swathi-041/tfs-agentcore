@@ -1,0 +1,15 @@
+# Exclude unnecessary files, only keep AgentCore deployment essentials
+custom_rag_engine/
+tfs-aws-bedrock/
+tfs-aws/
+tfs-claude/
+tfs-faq-agent/
+tfs-poc-aws-1(changes done -dont use)/
+tfs-poc-aws-1.zip
+tfs-poc-aws/
+tfs-poc-gcp/
+local_runtime*.zip
+runtime_template.zip
+server.py
+main.py
+requirements.txt
