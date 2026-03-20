@@ -1,0 +1,71 @@
+{
+  "MOCK_LEASES": {
+    "LSE-12345": {
+      "customer_name": "John Doe",
+      "customer_address": "123 Main Street, New York, NY 10001",
+      "vehicle": {
+        "year": 2022,
+        "make": "Toyota",
+        "model": "Camry",
+        "body": "Silver Sedan",
+        "vin": "1HGBH41JXMN109186"
+      },
+      "account_number": "ACC-789456",
+      "allowed_miles": 36000,
+      "residual_value": 18000,
+      "per_mile_overage": 0.25,
+      "base_trade_in_value": 15000,
+      "status": "active"
+    },
+    "LSE-67890": {
+      "customer_name": "Jane Smith",
+      "customer_address": "456 Oak Avenue, Los Angeles, CA 90001",
+      "vehicle": {
+        "year": 2023,
+        "make": "Toyota",
+        "model": "RAV4",
+        "body": "Blue SUV",
+        "vin": "2T3BFREV9JW123456"
+      },
+      "account_number": "ACC-456789",
+      "allowed_miles": 45000,
+      "residual_value": 22000,
+      "per_mile_overage": 0.2,
+      "base_trade_in_value": 20000,
+      "status": "active"
+    }
+  },
+  "CONDITION_MULTIPLIERS": {
+    "excellent": 1.0,
+    "good": 0.85,
+    "fair": 0.7,
+    "poor": 0.5
+  },
+  "AVAILABLE_EXCHANGE_VEHICLES": [
+    {
+      "id": "EX-001",
+      "year": 2025,
+      "make": "Toyota",
+      "model": "Corolla",
+      "trim": "LE",
+      "msrp": 25000
+    },
+    {
+      "id": "EX-002",
+      "year": 2025,
+      "make": "Toyota",
+      "model": "Camry",
+      "trim": "SE",
+      "msrp": 32000
+    },
+    {
+      "id": "EX-003",
+      "year": 2025,
+      "make": "Toyota",
+      "model": "RAV4",
+      "trim": "XLE",
+      "msrp": 36000
+    }
+  ]
+}
+
